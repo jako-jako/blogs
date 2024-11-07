@@ -1,0 +1,52 @@
+#Jekyllへようこそ！
+#この設定ファイルは、ブログ全体に影響を与える設定に使用されます。
+#このファイルは、一度設定した後はほとんど編集しない値を設定するためのものです。
+#もし頻繁にこのファイルを編集することがあるなら、Jekyllのデータファイル機能を使うことを検討してください。
+#頻繁に更新が必要なデータに適しています。
+#技術的な理由で、このファイルは 'bundle exec jekyll serve' を使用したときに自動的には再読み込みされません。
+#このファイルを変更した場合は、サーバープロセスを再起動してください。
+#YAMLの構文について助けが必要な場合は、以下のクイックリファレンスが参考になります：
+#https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+#https://learnxinyminutes.com/docs/yaml/
+
+#サイト設定
+#これらは新しいサイトを個別に設定するために使用されます。HTMLファイルを見ると、{{ site.title }} や {{ site.email }} などを通じてこれらがアクセスされるのがわかります。
+#カスタム変数を好きなだけ作成することができ、{{ site.myvariable }} のようにテンプレートからアクセスできます。
+
+
+title: ぺぷの育児日記
+#email: your-email@example.com
+description: >- # this means to ignore newlines until "baseurl:"
+  我が子の成長記録と日々の育児の思い出を綴るブログです。
+  つれづれなるままに、書いていくのでよろしくです。
+  現在、パートナーと長男が家族です。
+  
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+#twitter_username: jekyllrb
+#github_username:  jekyll
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
